@@ -1,0 +1,15 @@
+{
+    "name": "jarvis-part-3",
+    "version": "1.0.0",
+    "description": "Module NodeJS",
+    "main": "App.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon App.js"
+    },
+    "author": "Sedera RANDRIANARIVOLA",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
