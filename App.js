@@ -1,7 +1,10 @@
 'use strict'
-let http = require('http');
-http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.write('Hello World!');
-    res.end();
-}).listen(8080, () => console.log('Server started at port 8080'));
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send('welcome to the JARVIS APP');
+});
+app.listen(7000, () => {
+    console.log('Listening on port 7000')
+});
