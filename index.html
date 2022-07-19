@@ -15,6 +15,7 @@
     <header>
         <h1>WELCOME TO THE JARVIS API</h1>
     </header>
+    <hr>
     <div class="conteneur">
         <h2>Objectif de l'API:</h2>
         <p>Permettre à l'utilisateur de naviguer vers les divers routes de l'application</p>
@@ -41,19 +42,19 @@
         <div class="row border border-dark border-bottom-0">
             <div class="col-md-4">Route d'inscription d'un utilisateur</div>
             <div class="col-md-2">POST</div>
-            <div class="col-md-2">/register</div>
+            <div class="col-md-2"> <a type="button" class="btn btn-primary" href="/register">/register</a></div>
             <div class="col-md-2"></div>
         </div>
         <div class="row border border-dark border-bottom-0">
             <div class="col-md-4">Route inviter un utilisateur</div>
             <div class="col-md-2">POST</div>
-            <div class="col-md-2">/invitation</div>
+            <div class="col-md-2"><a type="button" class="btn btn-primary" href="/invitation">/invitation</a></div>
             <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
         </div>
         <div class="row border border-dark border-bottom-0">
             <div class="col-md-4">Route gestion d'une invitation</div>
             <div class="col-md-2">GET</div>
-            <div class="col-md-2">/invitation?token=xxx&resp=xxx</div>
+            <div class="col-md-2"><a type="button" class="btn btn-primary" href="/invitation?token=xxx&resp=xxx">/invitation?token=xxx&resp=xxx</a></div>
             <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
         </div>
         <div class="row border border-dark border-bottom-0">
