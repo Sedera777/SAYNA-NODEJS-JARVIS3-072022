@@ -8,11 +8,12 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.sendFile(__dirname + '/index.html');
 });
 
 app.get('/login', (req, res) => {
-    res.send('login');
+    res.render('login')
+
 });
 
 
