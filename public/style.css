@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-size: small;
+    background: black;
+}
+
+header {
+    width: 100%;
+    padding: 5px;
+    background: #eee;
+}
+
+h1 {
+    color: black;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: min(4vh, 4vw);
+}
+
+h2 {
+    padding-top: 15px;
+    font-size: min(2vh, 2vw)
+}
+
+.conteneur {
+    margin-left: 40px;
+    margin-right: 20%;
+}
+
+.row {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    padding: 15px;
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+}

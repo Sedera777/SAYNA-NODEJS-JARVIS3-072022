@@ -8,14 +8,17 @@
     <link rel="icon" type="image/x-icon" href="../public/home-icon-16-89220.png">
     <title>Accueil | JARVIS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/style.css">
 </head>
 
 <body>
-    <div class="container">
+    <header>
         <h1>WELCOME TO THE JARVIS API</h1>
+    </header>
+    <div class="conteneur">
         <h2>Objectif de l'API:</h2>
         <p>Permettre à l'utilisateur de naviguer vers les divers routes de l'application</p>
-        <h2>Tableau de l'API (Route):</h2>
+        <h2 class="pb-2">Tableau de l'API (Route):</h2>
         <div class="row border border-dark border-bottom-0">
             <div class="col-md-4">Description</div>
             <div class="col-md-2">Methode</div>
@@ -25,13 +28,14 @@
         <div class="row border border-dark border-bottom-0">
             <div class="col-md-4">Affichage de la page index.html</div>
             <div class="col-md-2">GET</div>
-            <div class="col-md-2">/</div>
+            <div class="col-md-2"><a type='button' class="btn btn-primary" href="/">/</a></div>
             <div class="col-md-2"></div>
         </div>
         <div class="row border border-dark border-bottom-0">
             <div class="col-md-4">Route d'authentification d'un utilisateur</div>
             <div class="col-md-2">POST</div>
-            <div class="col-md-2">/login</div>
+            <div class="col-md-2">
+                <a type="button" class="btn btn-primary" href="/login">/login</a></div>
             <div class="col-md-2"></div>
         </div>
         <div class="row border border-dark border-bottom-0">
@@ -92,6 +96,7 @@
 
         </div>
     </div>
+    <footer></footer>
 
 </body>
 
