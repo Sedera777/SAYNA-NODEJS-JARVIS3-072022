@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #000000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.logout {
+    width: 300px
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.log {
+    margin-left: 30px;
+}
+
+.conteneur {
+    text-align: center;
+    padding-top: 30vh;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    position: fixed;
+    background: #000000;
+}

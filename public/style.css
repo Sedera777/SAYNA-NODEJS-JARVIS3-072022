@@ -1,4 +1,7 @@
-* {
+*,
+a,
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,42 +10,54 @@
 body {
     color: #fff;
     font-size: small;
-    background: #000000;
 }
 
 header {
-    width: 100%;
-    padding: 5px;
-    background: #000000;
+    background: #292424;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login {
+    width: 50px
 }
 
 h1 {
-    color: #fff;
-    margin-left: 40px;
-    font-weight: bold;
-    padding-top: 20px;
-    font-size: min(4vh, 4vw);
+    margin-left: 20px;
 }
 
 h2 {
     padding-top: 15px;
-    font-size: min(2vh, 2vw)
+}
+
+.btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn:hover {
+    border: none;
+    background: rgb(156, 9, 156);
 }
 
 .conteneur {
-    margin-left: 40px;
-    margin-right: 20%;
+    height: 400px;
+    background-color: rgb(206, 172, 172);
 }
 
-.row {
-    padding-top: 10px;
-    margin-bottom: 10px;
+.background {
+    background: url('./Google\ Home.png');
+    background-size: cover;
+    height: 625px;
 }
 
 footer {
     width: 100%;
-    padding: 15px;
-    background: #eee;
-    position: fixed;
     bottom: 0;
+    padding: 10px;
+    position: relative;
+    background: #000000;
 }

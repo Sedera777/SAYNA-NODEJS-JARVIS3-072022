@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faq | JARVIS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>WELCOME TO THE JARVIS API</h1>
+    </header>
+    <hr>
+    <div class="conteneur">
+        <h2>Objectif de l'API:</h2>
+        <p>Permettre à l'utilisateur de naviguer vers les divers routes de l'application</p>
+        <h2 class="pb-2">Tableau de l'API (Route):</h2>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Description</div>
+            <div class="col-md-2">Methode</div>
+            <div class="col-md-2">Route</div>
+            <div class="col-md-2">Header</div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Affichage de la page index.html</div>
+            <div class="col-md-2">GET</div>
+            <div class="col-md-2"><a type='button' class="btn btn-primary" href="/">/</a></div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route d'authentification d'un utilisateur</div>
+            <div class="col-md-2">POST</div>
+            <div class="col-md-2">
+                <a type="button" class="btn btn-primary" href="/login">/login</a></div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route d'inscription d'un utilisateur</div>
+            <div class="col-md-2">POST</div>
+            <div class="col-md-2"> <a type="button" class="btn btn-primary" href="/register">/register</a></div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route inviter un utilisateur</div>
+            <div class="col-md-2">POST</div>
+            <div class="col-md-2"><a type="button" class="btn btn-primary" href="/invitation">/invitation</a></div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route gestion d'une invitation</div>
+            <div class="col-md-2">GET</div>
+            <div class="col-md-2"><a type="button" class="btn btn-primary" href="/invitation?token=xxx&resp=xxx">/invitation?token=xxx&resp=xxx</a></div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route de création d'une pièce</div>
+            <div class="col-md-2">POST</div>
+            <div class="col-md-2">/room</div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route de suppression d'une pièce</div>
+            <div class="col-md-2">DELETE</div>
+            <div class="col-md-2">/room?name=xxxx</div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route de création d'un objet</div>
+            <div class="col-md-2">POST</div>
+            <div class="col-md-2">/objet</div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route de suppression d'un objet</div>
+            <div class="col-md-2">DELETE</div>
+            <div class="col-md-2">/objet?name=xxx</div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+
+        </div>
+        <div class="row border border-dark border-bottom-0">
+            <div class="col-md-4">Route de changement d'un objet</div>
+            <div class="col-md-2">PUT</div>
+            <div class="col-md-2">/objet</div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+        </div>
+        <div class="row border border-dark">
+            <div class="col-md-4">Route de suppression du compte</div>
+            <div class="col-md-2">DELETE</div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2">{"Authorization": "Bearer xxxxxx"}</div>
+
+        </div>
+    </div>
+    <footer></footer>
+
+</body>
+
+</html>
