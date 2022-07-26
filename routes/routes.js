@@ -14,10 +14,6 @@ router.get('/register', (req, res) => {
         // res.render('register')
 });
 
-router.get('/login', (req, res) => {
-    res.render('login', { title: 'Connexion' })
-});
-
 router.post('/login', async(req, res) => {
     const email_password = Object.values(req.body)
     emailDashboard = email_password[0]
